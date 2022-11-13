@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;  
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  background: $c_background_dark;
+  
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: 'Montserrat';
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin: auto;
+}
+h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+}
+a {
+  color          : inherit;
+  text-decoration: inherit;
+}
+
