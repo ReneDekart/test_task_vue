@@ -10,8 +10,6 @@
 <script>
 export default {
   name: "my-input",
-  props: ["modelValue"],
-  emits: ["update:modelValue"],
 };
 </script>
 

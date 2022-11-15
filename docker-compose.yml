@@ -1,0 +1,16 @@
+version: "3"
+services:
+  test_task_vue:
+    build:
+      dockerfile: test_task_vue.Dockerfile
+    ports:
+      - "9080:8080"
+    volumes:
+      - ./:/test_task_vue
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    command: ["/bin/ash", "run_server.sh"]
+    environment:
+      NODE_ENV: ${NODE_ENV}
+
